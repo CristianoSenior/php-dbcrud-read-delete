@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <!-- FONT: LATO -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <!-- FONT: FONTAWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+    <!-- JS: JQUERY -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- JS: MOMENT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+
+    <!-- JS: CHART-JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js"></script>
+
+    <!-- JS: HANDLEBARS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js" charset="utf-8"></script>
+    <!-- TEMPLATE: MESSAGE MENU -->
+    <script id="pagamento-template" type="text/x-handlebars-template"></script>
+    <script src="main.js"></script>
+
+
+  </head>
+  <body>
+    <div class="fisso">
+
+    </div>
+
+
+
+    <script id="paganti-template" type="text/x-handlebars-template">
+  <div class="entry" data-id = '{{id}}'>
+    <h1>{{name}}</h1>
+    <h1>{{lastname}}</h1>
+    <h1>{{address}}</h1>
+    <i class="cestino fa fa-trash" aria-hidden="true"></i>
+  </div>
+</script>
+  </body>
+</html>
